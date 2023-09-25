@@ -1,0 +1,10 @@
+export const LOG_IN = "LOG_IN";
+export const SHOW_LOGIN_PAGE = "SHOW_LOGIN_PAGE";
+export const LOG_OUT = "LOG_OUT";
+export const SIGN_UP = "SIGN_UP";
+export const TRANSFER = "TRANSFER";
+export const VIEW_ACCOUNT = "VIEW_ACCOUNT";
+export const LOGGED_IN = "LOGGED_IN";
+export const DISPLAY_DASHBOARD = "DISPLAY_DASHBOARD";
+export const SWITCH_TAB = "SWITCH_TAB";
+export const TRANSACTIONS = "TRANSACTIONS";

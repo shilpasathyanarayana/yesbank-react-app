@@ -1,0 +1,73 @@
+
+.heading img {
+    margin-left: 500px;
+    height: 250px;
+}
+
+.heading h2 {
+
+    margin-left: 470px;
+}
+
+.line {
+    height: 2px;
+    background-color: green;
+    width: 500px;
+    margin-left: 350px;
+}
+
+.heading p {
+    margin-left: 300px;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.info p {
+    font-size: 12px;
+}
+
+.details {
+    Width: 80%;
+    margin-left: 80px;
+    margin-top: 30px;
+    background: rgb(236, 244, 236);
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.details input {
+
+    height: 50px;
+    margin-left: 0px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid gray;
+    border: 0;
+    outline: 0;
+    padding: 28px 25px;
+}
+
+.username {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.username p {
+    font-size: 13px;
+}
+
+.continue {
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background: linear-gradient(100deg, rgb(12, 42, 25), #2bab0d);
+    color: white;
+    cursor: pointer;
+}

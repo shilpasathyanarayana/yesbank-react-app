@@ -1,0 +1,92 @@
+
+.button {
+    margin: 20px 0;
+    height: 35px;
+    width: 90px;
+    border: 2px solid green;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background: #2bab0d;
+    margin-left: 300px;
+}
+
+.navbar {
+    background-color: rgb(12, 42, 25);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.navbar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.navbar ul li:hover {
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+
+.navbar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(12, 42, 25);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.navbar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .sub-menu-1 li {
+    width: 230px;
+    padding:10px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+}
+
+.navbar ul li:hover .sub-menu-1 ul li:last-child {
+    border: none;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+
+@media screen and (max-width :480px){
+    
+    .navbar{
+        width: 1200px;
+    }
+    .navbar ul li a{
+        display: none;
+    }
+}
+@media screen and (max-width :760px){
+    .navbar{
+        width: 1200px;
+    }
+}
+@media screen and (max-width :1240px){
+    .navbar{
+        width: 1400px;
+    }
+}

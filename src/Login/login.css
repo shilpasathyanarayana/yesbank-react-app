@@ -1,0 +1,83 @@
+.main {
+    width: 1280px;
+    height: 637px;
+    background-image: linear-gradient(rgba(0, 50, 0, 0.8), rgba(88, 165, 88, 0.8));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box {
+    width: 1500px;
+    max-width: 560px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(12, 42, 25);
+    position: relative;
+
+}
+
+.input-field {
+    height: 50px;
+    width: 470px;
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 3px;
+    /* display: flex; */
+    /* align-items: center; */
+
+}
+
+.input-field input {
+
+    height: 50px;
+    margin-left: 0px;
+    width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 28px 25px;
+
+}
+
+.input-group h5 {
+    display: flex;
+    color: rgb(12, 42, 25);
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: rgb(12, 42, 25);
+}
+
+ .button {
+    height: 40px;
+    width: 150px;
+    border: 2px solid green;
+    margin-left: 10px;
+    /* margin: 15px 40px; */
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background: #2bab0d;
+    align-items: center;
+
+}

@@ -1,0 +1,285 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: rgb(12, 42, 25);
+    color: white;
+    float: left;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(355, 355, 355, 1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(28, 95, 57);
+}
+
+.click-options{
+    width: 75%;
+    float: right;
+    /* display: block; */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.dashboard img {
+    height: 470px;
+    width: 100%;
+    background-size: fixed;
+}
+
+#first,
+#last {
+    color: #1c5f39;
+    font-size: 22px;
+}
+
+#email,
+#cardnum,
+#balance,
+#amount {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 150px;
+    font-size: 20px;
+}
+#from{
+    font-size: 20px;
+   padding: 0px;
+}
+.accnum {
+    font-size: 20px;
+}
+
+.account {
+    background-color: #1c5f39;
+    height: 540px;
+    width: 100%;
+    background-size: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: white;
+}
+
+.transfer {
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    background: transparent;
+}
+
+.transfer input {
+    margin-top: 50px;
+    height: 50px;
+    background: #eaeaea;
+    margin: 5px 0;
+    border-radius: 3px;
+    height: 50px;
+    margin-left: 30px;
+    width: 35%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 5px;
+    border: 2px solid green;
+
+}
+
+.transfer label {
+    width: 50%;
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 3px;
+    margin-left: 0px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 8px 45px;
+}
+
+.send-money {
+    margin-top: 30px;
+}
+
+#from {
+    margin-left: 0px;
+    align-items: left;
+    display: inline
+}
+
+.transfer h2 {
+    text-align: center;
+    margin-left: 35px;
+    color: #2bab0d;
+}
+
+.transfer h4 {
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+.Loans {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* .carloan {
+    height: 300px;
+} */
+
+/* .housing-loan {
+    height: 300px;
+} */
+
+.carloan img {
+    margin-top: -65px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.housing-loan img {
+    margin-top:-50px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(12, 42, 25);
+    border-radius: 15px;
+}
+
+.carloan,
+.housing-loan {
+    margin-top: 110px;
+}
+
+.paybills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+
+}
+
+.paybills form {
+    margin-left: 70px;
+    padding: 10px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.paybills form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.paybills form .row .col {
+    flex: 1 1 250px;
+}
+
+.paybills form .row .col .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.paybills form .row .col .inputBox {
+    margin: 15px 0;
+
+}
+
+.paybills form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+
+}
+
+.paybills .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.paybills .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.paybills form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.paybills form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+.paybills form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.paybills form .submit-btn {
+    width: 40%;
+    padding: 12px;
+    font-size: 15px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.paybills form .submit-btn:hover {
+    background: #2ecc71;
+}
+
+#myTable{
+    margin: auto;
+    margin-top: 200px;
+}
+
+.logout-btn{
+    background: rgb(12, 42, 25);
+    border: none;
+    border-radius: none;
+}
